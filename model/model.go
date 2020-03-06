@@ -1,7 +1,7 @@
 package model
 
 import (
-	"microservice/part1/orders-srv/model/orders"
+	"github.com/gappy023/orders-srv/model/orders"
 )
 
 // Init 初始化模型层
