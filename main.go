@@ -10,7 +10,6 @@ import (
 	proto "github.com/gappy023/orders-srv/proto/orders"
 
 	"github.com/gappy023/basic"
-	"github.com/gappy023/basic/common"
 	"github.com/gappy023/basic/config"
 	"github.com/micro/cli/v2"
 	micro "github.com/micro/go-micro/v2"
@@ -48,10 +47,10 @@ func main() {
 	)
 
 	// 侦听订单支付消息
-	err := micro.RegisterSubscriber(common.TopicPaymentDone, service.Server(), subscriber.PayOrder)
-	if err != nil {
-		log.Fatal(err)
-	}
+	// err := micro.RegisterSubscriber(common.TopicPaymentDone, service.Server(), subscriber.PayOrder)
+	// if err != nil {
+	// 	log.Fatal(err)
+	// }
 
 	// 注册服务
 	err = proto.RegisterOrdersHandler(service.Server(), new(handler.Orders))
