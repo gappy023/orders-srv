@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"sync"
 
-	proto "microservice/part1/orders-srv/proto/orders"
+	proto "github.com/gappy023/orders-srv/proto/orders"
 
-	invS "github.com/gappy023/part1/inventory-srv/proto/inventory"
+	invS "github.com/gappy023/inventory-srv/proto/inventory"
 	"github.com/micro/go-micro/v2/client"
 )
 

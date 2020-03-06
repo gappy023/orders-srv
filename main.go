@@ -3,17 +3,17 @@ package main
 import (
 	"fmt"
 
-	"microservice/part1/orders-srv/handler"
-	"microservice/part1/orders-srv/model"
-	"microservice/part1/orders-srv/subscriber"
+	"github.com/gappy023/orders-srv/handler"
+	"github.com/gappy023/orders-srv/model"
+	"github.com/gappy023/orders-srv/subscriber"
 
-	proto "microservice/part1/orders-srv/proto/orders"
+	proto "github.com/gappy023/orders-srv/proto/orders"
 
 	"github.com/gappy023/basic"
 	"github.com/gappy023/basic/common"
 	"github.com/gappy023/basic/config"
 	"github.com/micro/cli/v2"
-	"github.com/micro/go-micro/v2"
+	micro "github.com/micro/go-micro/v2"
 	log "github.com/micro/go-micro/v2/logger"
 	"github.com/micro/go-micro/v2/registry"
 	"github.com/micro/go-micro/v2/registry/etcd"

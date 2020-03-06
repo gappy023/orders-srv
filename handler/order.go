@@ -4,8 +4,8 @@ import (
 	"context"
 
 	"github.com/go-log/log"
-	"microservice/part1/orders-srv/model/orders"
-	proto "microservice/part1/orders-srv/proto/orders"
+	"github.com/gappy023/orders-srv/model/orders"
+	proto "github.com/gappy023/orders-srv/proto/orders"
 )
 
 var (

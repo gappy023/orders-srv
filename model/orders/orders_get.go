@@ -1,8 +1,8 @@
 package orders
 
 import (
-	"github.com/microservice/part1/basic/db"
-	proto "microservice/part1/orders-srv/proto/orders"
+	"github.com/gappy023/basic/db"
+	proto "github.com/gappy023/orders-srv/proto/orders"
 	log "github.com/micro/go-micro/v2/logger"
 )
 
