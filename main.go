@@ -11,7 +11,7 @@ import (
 
 	"github.com/gappy023/basic"
 	"github.com/gappy023/basic/config"
-	"github.com/micro/cli/v2"
+	cli "github.com/micro/cli/v2"
 	micro "github.com/micro/go-micro/v2"
 	log "github.com/micro/go-micro/v2/logger"
 	"github.com/micro/go-micro/v2/registry"
