@@ -5,7 +5,7 @@ import (
 
 	"github.com/go-log/log"
 	"github.com/gappy023/orders-srv/model/orders"
-	proto "github.com/gappy023/orders-srv/proto/orders"
+	proto "github.com/gappy023/orders-srv/proto/order"
 )
 
 var (

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync"
 
-	proto "github.com/gappy023/orders-srv/proto/orders"
+	proto "github.com/gappy023/orders-srv/proto/order"
 
 	invS "github.com/gappy023/inventory-srv/proto/inventory"
 	"github.com/micro/go-micro/v2/client"

@@ -2,7 +2,7 @@ package orders
 
 import (
 	"github.com/gappy023/basic/db"
-	proto "github.com/gappy023/orders-srv/proto/orders"
+	proto "github.com/gappy023/orders-srv/proto/order"
 	log "github.com/micro/go-micro/v2/logger"
 )
 
