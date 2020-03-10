@@ -7,7 +7,7 @@ import (
 	"github.com/gappy023/orders-srv/model"
 	"github.com/gappy023/orders-srv/subscriber"
 
-	proto "github.com/gappy023/orders-srv/proto/orders"
+	proto "github.com/gappy023/orders-srv/proto/order"
 
 	"github.com/gappy023/basic"
 	"github.com/gappy023/basic/config"
